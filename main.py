@@ -46,11 +46,11 @@ def submit(s: requests.Session):
         "dqszdd": "2",                       # current location
 
         #
-        "address": "浙江省台州市",
-        "area": "台州市",
+        "address": "浙江省台州市椒江区",
+        "area": "台州市椒江区",
         "province": "浙江省",
         "city": "",
-        "geo_api_info": "{\"address\":\"浙江省台州市\",\"details\":\"浙江省台州市椒江区新明半岛34幢\",\"province\":{\"label\":\"浙江省\",\"value\":\"\"},\"city\":{\"label\":\"\",\"value\":\"\"},\"area\":{\"label\":\"台州市\",\"value\":\"\"}}",
+        "geo_api_info": "{\"address\":\"浙江省台州市椒江区\",\"details\":\"浙江省台州市椒江区新明半岛34幢\",\"province\":{\"label\":\"浙江省\",\"value\":\"\"},\"city\":{\"label\":\"\",\"value\":\"\"},\"area\":{\"label\":\"台州市椒江区\",\"value\":\"\"}}",
         "szgj_api_info": "{\"area\":{\"label\":\"\",\"value\":\"\"},\"city\":{\"label\":\"\",\"value\":\"\"},\"address\":\"\",\"details\":\"\",\"province\":{\"label\":\"\",\"value\":\"\"}}",
         "szgj_select_info": {},
         #
@@ -88,11 +88,11 @@ def submit(s: requests.Session):
         # "created_uid":"0",
         # "todaysfhsjc":"",
         # "is_daily":1,
-        "geo_api_infot": "{\"address\":\"浙江省台州市\",\"details\":\"浙江省台州市椒江区新明半岛34幢\",\"province\":{\"label\":\"浙江省\",\"value\":\"\"},\"city\":{\"label\":\"\",\"value\":\"\"},\"area\":{\"label\":\"怀柔区\",\"value\":\"\"}}",
+        "geo_api_infot": "{\"address\":\"浙江省台州市椒江区\",\"details\":\"浙江省台州市椒江区新明半岛34幢\",\"province\":{\"label\":\"浙江省\",\"value\":\"\"},\"city\":{\"label\":\"\",\"value\":\"\"},\"area\":{\"label\":\"台州市椒江区\",\"value\":\"\"}}",
 
         # yesterday information
         "old_szdd": "国内",
-        "old_city": "{\"address\":\"33453eafd84f40b18b50757737c2bf6b\",\"details\":\"浙江省台州市椒江区新明半岛34幢\",\"province\":{\"label\":\"浙江省\",\"value\":\"\"},\"city\":{\"label\":\"\",\"value\":\"\"},\"area\":{\"label\":\"台州市\",\"value\":\"\"}}",
+        "old_city": "{\"address\":\"33453eafd84f40b18b50757737c2bf6b\",\"details\":\"浙江省台州市椒江区新明半岛34幢\",\"province\":{\"label\":\"浙江省\",\"value\":\"\"},\"city\":{\"label\":\"\",\"value\":\"\"},\"area\":{\"label\":\"台州市椒江区\",\"value\":\"\"}}",
     }
 
     r = s.post("https://app.ucas.ac.cn/ucasncov/api/default/save", data=new_daily)
