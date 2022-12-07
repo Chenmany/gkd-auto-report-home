@@ -47,10 +47,10 @@ def submit(s: requests.Session):
 
         #
         "address": "浙江省台州市椒江区",
-        "area": "",
+        "area": "椒江区",
         "province": "浙江省",
-        "city": "台州市椒江区",
-        "geo_api_info": "{\"address\":\"浙江省台州市椒江区\",\"details\":\"浙江省台州市椒江区新明半岛34幢\",\"province\":{\"label\":\"浙江省\",\"value\":\"\"},\"city\":{\"label\":\"\",\"value\":\"\"},\"area\":{\"label\":\"台州市椒江区\",\"value\":\"\"}}",
+        "city": "台州市",
+        "geo_api_info": "{\"address\":\"浙江省台州市椒江区\",\"details\":\"浙江省台州市椒江区新明半岛34幢\",\"province\":{\"label\":\"浙江省\",\"value\":\"\"},\"city\":{\"label\":\"台州市\",\"value\":\"\"},\"area\":{\"label\":\"椒江区\",\"value\":\"\"}}",
         "szgj_api_info": "{\"area\":{\"label\":\"\",\"value\":\"\"},\"city\":{\"label\":\"\",\"value\":\"\"},\"address\":\"\",\"details\":\"\",\"province\":{\"label\":\"\",\"value\":\"\"}}",
         "szgj_select_info": {},
         #
@@ -88,11 +88,11 @@ def submit(s: requests.Session):
         # "created_uid":"0",
         # "todaysfhsjc":"",
         # "is_daily":1,
-        "geo_api_infot": "{\"address\":\"浙江省台州市椒江区\",\"details\":\"浙江省台州市椒江区新明半岛34幢\",\"province\":{\"label\":\"浙江省\",\"value\":\"\"},\"city\":{\"label\":\"\",\"value\":\"\"},\"area\":{\"label\":\"台州市椒江区\",\"value\":\"\"}}",
+        "geo_api_infot": "{\"address\":\"浙江省台州市椒江区\",\"details\":\"浙江省台州市椒江区新明半岛34幢\",\"province\":{\"label\":\"浙江省\",\"value\":\"\"},\"city\":{\"label\":\"台州市\",\"value\":\"\"},\"area\":{\"label\":\"椒江区\",\"value\":\"\"}}",
 
         # yesterday information
         "old_szdd": "国内",
-        "old_city": "{\"address\":\"浙江省台州市椒江区\",\"details\":\"浙江省台州市椒江区新明半岛34幢\",\"province\":{\"label\":\"浙江省\",\"value\":\"\"},\"city\":{\"label\":\"\",\"value\":\"\"},\"area\":{\"label\":\"台州市椒江区\",\"value\":\"\"}}",
+        "old_city": "{\"address\":\"浙江省台州市椒江区\",\"details\":\"浙江省台州市椒江区新明半岛34幢\",\"province\":{\"label\":\"浙江省\",\"value\":\"\"},\"city\":{\"label\":\"台州市\",\"value\":\"\"},\"area\":{\"label\":\"椒江区\",\"value\":\"\"}}",
     }
 
     r = s.post("https://app.ucas.ac.cn/ucasncov/api/default/save", data=new_daily)
